@@ -85,4 +85,4 @@ distribution and macOS with Python 3.14+ installed.
 
 ## License
 
-gpl-v3
+GPL-v3
