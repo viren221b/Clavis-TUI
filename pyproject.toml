@@ -1,0 +1,21 @@
+[project]
+name = "clavis-tui"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "viren221b", email = "314584579+viren221b@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "argon2-cffi>=25.1.0",
+    "cryptography>=50.0.1",
+    "textual>=8.2.8",
+]
+
+[project.scripts]
+clavis = "clavis_tui.clavis:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
