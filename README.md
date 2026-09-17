@@ -57,19 +57,19 @@ python src/clavis_tui/clavis.py
 
 ## Documentation:
 
-<img width="731" height="665" alt="image" src="https://github.com/user-attachments/assets/8851e5f1-09a6-4772-8e45-d9b35320d480" />
+<img width="954" height="708" alt="image" src="https://github.com/user-attachments/assets/069be15e-84cf-4d17-9b4c-09805c5363ad" />
 
-<img width="960" height="1057" alt="image1" src="https://github.com/user-attachments/assets/13c4664b-5df5-41ed-97f0-f4a9a49786ed" />
+<img width="934" height="687" alt="image1" src="https://github.com/user-attachments/assets/b7bd7137-ec57-4dcc-bfdc-07a12464bd2f" />
 
-<img width="961" height="1056" alt="image2" src="https://github.com/user-attachments/assets/59df6701-0306-4661-9b1d-b2a0ead0e094" />
+<img width="936" height="687" alt="image2" src="https://github.com/user-attachments/assets/7ced5d49-c3a6-41c0-8e3c-5be9fb1629ea" />
 
-<img width="946" height="1050" alt="image3" src="https://github.com/user-attachments/assets/7478540b-3578-40f2-a27e-1ee5deb88d4f" />
+<img width="946" height="687" alt="image3" src="https://github.com/user-attachments/assets/89e996ab-873f-43b3-8697-106069ff69e5" />
 
-<img width="957" height="1056" alt="image4" src="https://github.com/user-attachments/assets/9e64d84b-e0bf-41a5-9e02-65d2bcb9799c" />
+<img width="957" height="691" alt="image4" src="https://github.com/user-attachments/assets/6d83fe83-19ce-447e-a70a-6e31ded95c79" />
 
-<img width="954" height="1053" alt="image5" src="https://github.com/user-attachments/assets/3b0ce8ed-ed71-438a-8b5d-319dc0a264a3" />
+<img width="946" height="691" alt="image5" src="https://github.com/user-attachments/assets/01f03f11-d5b7-4807-aa28-195b8fc75b49" />
 
-<img width="960" height="1059" alt="image6" src="https://github.com/user-attachments/assets/333b4b2b-531b-48b9-a356-167ff00fff01" />
+<img width="954" height="700" alt="image6" src="https://github.com/user-attachments/assets/258a6236-aa1e-4424-a23b-bf852a60d5e1" />
 
 ## Security
 
