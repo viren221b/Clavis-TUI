@@ -1,6 +1,6 @@
 from textual.app import App, ComposeResult
 from textual.widgets import Label, Input, Button, ListView, ListItem, Footer, Header, Static, TextArea
-from textual.containers import Vertical, Horizontal
+from textual.containers import Vertical, Horizontal, ScrollableContainer
 from textual.screen import Screen
 from textual.binding import Binding
 
@@ -34,13 +34,19 @@ class MainScreen(Screen):
     #entry_list {
         width: 60%;
         height: 100%;
-        padding: 1 1;
+        padding: 1 1 1 1;
+        scrollbar-size-vertical: 1;
+    }
+
+    #content_scroll {
+        width: 40%;
+        height: 100%;
+        padding: 1 1 1 1;
+        scrollbar-size-vertical: 1;
     }
 
     #entry_content {
-        width: 40%;
-        height: 100%;
-        padding: 1 2;
+        padding: 0 2 0 0;
     }
     """
 
@@ -55,7 +61,10 @@ class MainScreen(Screen):
         yield Input(placeholder="Search (ex: title, topic, content, date, or type)", id="search_bar")
         yield Horizontal(
             ListView(id="entry_list"),
-            Static("Select an entry to view it.", id="entry_content")
+            ScrollableContainer(
+                Static("Select an entry to view it.", id="entry_content"),
+                id="content_scroll"
+            )
         )
         yield Footer()
 
@@ -429,6 +438,7 @@ class AuthScreen(Screen):
             height: auto;
             padding: 2 4;
             border: round white;
+            scrollbar-size-vertical: 1;
         }
 
         #auth_container Label {
