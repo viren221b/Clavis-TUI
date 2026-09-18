@@ -65,7 +65,8 @@ class MainScreen(Screen):
             ListView(id="entry_list"),
             ScrollableContainer(
                 Static("Select an entry to view it.", id="entry_content"),
-                id="content_scroll"
+                id="content_scroll",
+                can_focus=True
             )
         )
         yield Footer()
