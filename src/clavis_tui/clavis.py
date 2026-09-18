@@ -20,6 +20,8 @@ class MainScreen(Screen):
         Binding("q", "quit", "Quit")
     ]
 
+    #possible changes:
+        # - adjustable containers
     CSS = """
     #search_bar {
         display: none;
@@ -35,14 +37,14 @@ class MainScreen(Screen):
         width: 60%;
         height: 100%;
         padding: 1 1 1 1;
-        scrollbar-size-vertical: 1;
+        scrollbar-size-vertical: 0;
     }
 
     #content_scroll {
         width: 40%;
         height: 100%;
         padding: 1 1 1 1;
-        scrollbar-size-vertical: 1;
+        scrollbar-size-vertical: 0;
     }
 
     #entry_content {
@@ -438,7 +440,7 @@ class AuthScreen(Screen):
             height: auto;
             padding: 2 4;
             border: round white;
-            scrollbar-size-vertical: 1;
+            scrollbar-size-vertical: 0;
         }
 
         #auth_container Label {
